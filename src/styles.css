@@ -1,3 +1,16 @@
 body {
-  background-color: rgb(117, 117, 126);
+  
+}
+footer {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(207, 199, 199);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
