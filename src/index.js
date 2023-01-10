@@ -1,3 +1,1 @@
-import "./styles.css";
-
-console.log("Ismail");
+import './styles.css';
