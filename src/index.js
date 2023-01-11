@@ -1,3 +1,4 @@
+
 import "./styles.css";
 
 function getData() {
@@ -15,3 +16,4 @@ function getData() {
 
 console.log(getData());
 console.log("Ismail");
+

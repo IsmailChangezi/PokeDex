@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap");
 
 * {
@@ -54,4 +55,18 @@ a:hover {
   background-color: bisque;
   transition: all ease-out 0.5s;
   border-radius: 5px;
+  
+  footer {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(207, 199, 199);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
 }
