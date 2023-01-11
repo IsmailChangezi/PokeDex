@@ -1,4 +1,62 @@
-footer {
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  height: 80px;
+  padding: 1rem;
+  background: rgb(129, 128, 128);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  font-family: "Lato", serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 19px;
+  color: rgb(73, 53, 53);
+}
+
+.span-one {
+  color: rgb(211, 174, 130);
+}
+
+nav a {
+  color: rgb(73, 53, 53);
+}
+
+a:hover {
+  background-color: bisque;
+  transition: all ease-out 0.5s;
+  border-radius: 5px;
+  
+  footer {
   font-family: 'Lato', sans-serif;
   background-color: rgb(207, 199, 199);
   height: 100px;
@@ -10,4 +68,5 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+
 }
