@@ -3,13 +3,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
-  entry: {
-    index: "./src/index.js",
-  },
-  devtool: "inline-source-map",
+  entry: "./src/index.js",
   devServer: {
     static: "./dist",
-    // contentBase: "path.join(__dirname, img/)",
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -17,37 +13,20 @@ module.exports = {
     }),
   ],
   output: {
-    filename: "[name].bundle.js",
+    filename: "main.js",
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
-  optimization: {
-    runtimeChunk: "single",
-  },
   module: {
     rules: [
-      { test: /\.css$/, use: ["style-loader", "css-loader"] },
       {
-        test: /\.html$/,
-        use: ["html-loader"],
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(gif|png|jpe?g)$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[ext]",
-              outputPath: "img/",
-              // publicPath: "img/",
-            },
-          },
-        ],
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: "asset/resource",
       },
     ],
-  },
-
-  resolve: {
-    extensions: [".js", ".jsx", ".css"],
   },
 };
