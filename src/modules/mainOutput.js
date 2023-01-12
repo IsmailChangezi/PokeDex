@@ -5,7 +5,7 @@ import cardsNumber from './cardsCounter.js';
 const codex = document.querySelector('#main-container');
 
 const newLikes = (item) => {
-  fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/q43Np4AB1ka0fqpIWSXs/likes/')
+  fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/Zeunl115PZ6AB4fGYG9C/likes/')
     .then((response) => response.json())
     .then((json) => {
       const pokeLikes = json;

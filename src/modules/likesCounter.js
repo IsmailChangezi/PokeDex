@@ -4,7 +4,7 @@ export default function liked(item) {
       item_id: item,
     };
 
-    fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/q43Np4AB1ka0fqpIWSXs/likes/', {
+    fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/Zeunl115PZ6AB4fGYG9C/likes/', {
       method: 'POST',
       body: JSON.stringify(data),
       headers: { 'Content-type': 'application/json; charset=UTF-8' },
@@ -12,7 +12,7 @@ export default function liked(item) {
 
       .then((response) => response.json());
 
-    fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/q43Np4AB1ka0fqpIWSXs/likes/')
+    fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/Zeunl115PZ6AB4fGYG9C/likes/')
       .then((response) => response.json())
       .then((json) => {
         const pokeLikes = json;
