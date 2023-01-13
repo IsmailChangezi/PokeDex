@@ -4,7 +4,7 @@
 
 import commentCounter1 from '../modules/commentCounter.js';
 
-describe('Testing comment counter function', () => {
+describe('Test for comment counter function', () => {
   document.body.innerHTML = '<div>'
     + '  <div id="comment-area"></div>'
     + '<div class="new-comment"></div>'
