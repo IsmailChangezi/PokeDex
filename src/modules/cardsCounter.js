@@ -3,6 +3,6 @@ const cardsNumber = (parameter) => {
 
   const cardsResult = document.getElementById('title');
 
-  cardsResult.textContent = `PokeCodex (${cardCounter})`;
+  cardsResult.textContent = `Pokemon Info (${cardCounter})`;
 };
 export default cardsNumber;

@@ -71,13 +71,14 @@ const retrieve = (item) => {
   commentBtn.classList.add('comment');
   commentBtn.setAttribute('type', 'button');
   commentBtn.innerText = 'Comments';
+  buttonsDiv.appendChild(commentBtn);
 
   const reserveBtn = document.createElement('button');
   reserveBtn.innerText = 'Reserve';
   reserveBtn.classList.add('reserve');
   reserveBtn.setAttribute('type', 'button');
   buttonsDiv.appendChild(commentBtn);
-  buttonsDiv.appendChild(reserveBtn);
+  
 
   const likeButton = document.createElement('button');
   likeButton.setAttribute('id', item.name);
