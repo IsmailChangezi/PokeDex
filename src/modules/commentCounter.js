@@ -1,4 +1,4 @@
-const commentCounter1 = (classCount, append) => {
+const commentsCount = (classCount, append) => {
   const counter = classCount.length;
   const counterText = document.createElement('p');
   counterText.setAttribute('id', 'counter');
@@ -6,4 +6,4 @@ const commentCounter1 = (classCount, append) => {
   append.appendChild(counterText);
 };
 
-export default commentCounter1;
+export default commentsCount;
