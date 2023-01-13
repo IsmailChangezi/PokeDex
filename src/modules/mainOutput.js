@@ -78,7 +78,6 @@ const retrieve = (item) => {
   reserveBtn.classList.add('reserve');
   reserveBtn.setAttribute('type', 'button');
   buttonsDiv.appendChild(commentBtn);
-  
 
   const likeButton = document.createElement('button');
   likeButton.setAttribute('id', item.name);
