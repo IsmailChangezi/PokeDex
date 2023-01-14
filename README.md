@@ -98,9 +98,9 @@ Ismail
 - GitHub: [@IsmailChangezi](https://github.com/IsmailChangezi)
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ismail-changezi-34a138215/)
-
-
-
+👤 **Author2**
+Collins Kiprotich
+- GitHub: [@Collins](https://github.com/collins-kiprotich))
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
