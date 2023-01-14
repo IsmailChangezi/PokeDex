@@ -34,9 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   padding-bottom: 2.5rem;
-  background-image: url("./images/pokemon-go-hd-wallpaper.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+  background-color: #4e4839;
 }
 
 #navbar {
