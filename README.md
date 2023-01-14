@@ -60,6 +60,8 @@ After you're finished please remove all the comments and instructions!
 
 **[Pokemon App]** is an app which takes data from an api and renders it for the user to use.
 
+This is the link to the video https://drive.google.com/file/d/1nxEsvyi7oEsb4wRT6fBma8XS6YX5fq8E/view?usp=sharing
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - Major languages: html, javascript, CSS
